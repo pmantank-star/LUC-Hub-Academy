@@ -1,0 +1,13 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+
+# Block sensitive paths from indexing
+Disallow: /wp-admin
+Disallow: /.env
+Disallow: /auth/
+Disallow: /api/
+Disallow: /admin-dashboard
+
+# Standardize Crawling
+Allow: /
+Sitemap: https://luchub.ninatribe.com/sitemap.xml
