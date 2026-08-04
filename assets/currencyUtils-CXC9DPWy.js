@@ -1,0 +1,2 @@
+var e=e=>e*10,t=e=>Math.floor(e/10),n=e=>`${new Intl.NumberFormat().format(e)} LUC`,r=e=>`₦${new Intl.NumberFormat().format(e)}`;export{t as i,r as n,e as r,n as t};
+//# sourceMappingURL=currencyUtils-CXC9DPWy.js.map
